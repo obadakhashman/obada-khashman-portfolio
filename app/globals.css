@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-graphite text-ink font-sans antialiased;
+}
+
+::selection {
+  @apply bg-gold/30 text-ink;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-graphite;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gold-dim rounded-full;
+}
+
+@layer components {
+  /* Reusable glass card used across every section */
+  .glass-card {
+    @apply r
