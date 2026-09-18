@@ -20,3 +20,6 @@ export default function Footer() {
           © {new Date().getFullYear()} Obada Khashman. All rights reserved.
         </span>
       </div>
+    </footer>
+  );
+}
